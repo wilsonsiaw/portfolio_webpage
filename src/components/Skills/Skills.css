@@ -1,0 +1,33 @@
+@media screen and (max-width: 767px) {
+    .skills-container {
+        margin: 0 auto;
+        width: 90%;
+        height: 500px;
+        margin-top: 60px;
+
+        /* watch this line */
+        margin-bottom: 100px;
+    }
+
+    #skills-line-1 {
+        border: 1px solid;
+        margin-bottom: 30px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        align-items: center;
+
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    #skills-line-2 {
+        border: 1px solid;
+        margin-top: 30px;
+    }
+}

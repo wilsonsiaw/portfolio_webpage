@@ -64,9 +64,10 @@
         margin-bottom: 10px;
     }
 
-    .project-links {
+    .overlay-text {
         display: flex;
         gap: 15px;
+        border: 1px solid red;
     }
 
     .project-links a {
@@ -147,9 +148,95 @@
         margin-bottom: 10px;
     }
 
-    .project-links {
+    .overlay-text {
         display: flex;
         gap: 15px;
+        border: 1px solid red;
+    }
+
+    .project-links a {
+        text-decoration: 4px underline #6643b5;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px; 
+        letter-spacing: 2.286px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        /* border: 1px solid red; */
+        margin: 0 auto;
+        width: 85%;
+
+        position: relative;
+    }
+
+    .project-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 50px;
+        margin-top: 80px;
+    }
+
+    .projects {
+        margin-bottom: 50px;
+    }
+
+    .project-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container-top {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .container-top h3:nth-of-type(1) {
+        font-size: 88px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .container-top h3:nth-of-type(2) {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+
+    #project-line {
+        border: 2px solid #6643b5;
+        width: 130px;
+        margin-top: -55px;
+
+        position: relative;
+        left: 92%;
+    }
+
+    .project-title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+
+    .technology {
+        font-size: 18px;
+        font-weight: 500;
+        display: flex;
+        gap: 20px;
+        opacity: 0.7;
+        margin-bottom: 10px;
+    }
+
+    .overlay-text {
+        display: flex;
+        gap: 25px;
     }
 
     .project-links a {

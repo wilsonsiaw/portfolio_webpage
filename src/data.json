@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Audiophile Shop",
+        "image": "/public/assets/audiophile_project.png",
+        "technology": ["React", "CSS"]
+    },
+    {
+        "id": 2,
+        "name": "Countries Application Project",
+        "image": "/public/assets/countries_project.png",
+        "technology": ["React", "CSS"]
+    },
+    {
+        "id": 3,
+        "name": "GitHub User Search",
+        "image": "/public/assets/devfinder_project.png",
+        "technology": ["React", "CSS"]
+    },
+    {
+        "id": 4,
+        "name": "To-do Application",
+        "image": "/public/assets/todo_project.png",
+        "technology": ["React", "CSS"]
+    }
+]

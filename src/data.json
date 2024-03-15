@@ -3,24 +3,32 @@
         "id": 1,
         "name": "Audiophile Shop",
         "image": "/public/assets/audiophile_project.png",
-        "technology": ["React", "CSS"]
+        "technology": ["React", "CSS"],
+        "deployment_url": "https://audiophile-ecommerce-project-delta.vercel.app/",
+        "github_url": "https://github.com/wilsonsiaw/audiophile_ecommerce_project"
     },
     {
         "id": 2,
         "name": "Countries Application Project",
         "image": "/public/assets/countries_project.png",
-        "technology": ["React", "CSS"]
+        "technology": ["React", "CSS"],
+        "deployment_url": "https://countries-application-one.vercel.app/",
+        "github_url": "https://github.com/wilsonsiaw/countries_application"
     },
     {
         "id": 3,
         "name": "GitHub User Search",
         "image": "/public/assets/devfinder_project.png",
-        "technology": ["React", "CSS"]
+        "technology": ["React", "CSS"],
+        "deployment_url": "https://github-user-search-app-ten-pearl.vercel.app/",
+        "github_url": "https://github.com/wilsonsiaw/github_user_search_app"
     },
     {
         "id": 4,
         "name": "To-do Application",
         "image": "/public/assets/todo_project.png",
-        "technology": ["React", "CSS"]
+        "technology": ["React", "CSS"],
+        "deployment_url": "https://todo-application-iota-topaz.vercel.app/",
+        "github_url": "https://github.com/wilsonsiaw/ToDo-Application"
     }
 ]

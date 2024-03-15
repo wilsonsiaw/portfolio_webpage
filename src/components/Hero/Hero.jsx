@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Hero.css"
-import profile from "/assets/profile_pic3.jpg";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";

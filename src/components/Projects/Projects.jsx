@@ -14,9 +14,11 @@ const Projects = () => {
                 <h4>{project.technology[0].toUpperCase()}</h4> 
                 <h4>{project.technology[1].toUpperCase()}</h4>
             </div>
-            <div className='project-links'>
-                <a href={project.deployment_url} target='_blank' rel="noopener noreferrer">VIEW PROJECT</a>
-                <a href={project.github_url} target='_blank' rel='noopener noreferrer'>VIEW CODE</a>
+            <div className='project-links overlay'>
+                <div className="overlay-text">
+                    <a href={project.deployment_url} target='_blank' rel="noopener noreferrer">VIEW PROJECT</a>
+                    <a href={project.github_url} target='_blank' rel='noopener noreferrer'>VIEW CODE</a>
+                </div>
             </div>
         </div>
     ))

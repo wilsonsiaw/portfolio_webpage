@@ -1,6 +1,7 @@
 @media screen and (max-width: 767px) {
     .contact-container {
         position: relative;
+        margin-top: 50px;
 
         /* watch this line */
         margin-bottom: 100px;
@@ -16,7 +17,7 @@
         font-size: 40px;
         font-weight: 700;
         line-height: 40px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .contact-top p {
@@ -24,7 +25,12 @@
         font-size: 16px;
         font-weight: 500;
         line-height: 26px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+    input:focus,
+    textarea:focus {
+        outline: none;
     }
 
     input {
@@ -37,6 +43,8 @@
         font-size: 16px;
         font-weight: 500;
         line-height: 26px; 
+        text-indent: 15px;
+        padding-left: 15px;
     }
 
     input:hover {
@@ -52,6 +60,8 @@
         font-size: 16px;
         font-weight: 500;
         line-height: 26px;
+        text-indent: 15px;
+        padding-left: 15px;
     }
 
     .submit-btn {
@@ -110,6 +120,11 @@
         margin-bottom: 50px;
     }
 
+    input:focus,
+    textarea:focus {
+        outline: none;
+    }
+
     input {
         display: block;
         height: 43px;
@@ -120,6 +135,8 @@
         font-size: 16px;
         font-weight: 500;
         line-height: 26px; 
+        text-indent: 15px;
+        padding-left: 15px;
     }
 
     textarea {
@@ -131,6 +148,8 @@
         font-size: 16px;
         font-weight: 500;
         line-height: 26px;
+        text-indent: 15px;
+        padding-left: 15px;
     }
 
     .submit-btn {

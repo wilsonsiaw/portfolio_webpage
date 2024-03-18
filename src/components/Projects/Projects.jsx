@@ -27,9 +27,8 @@ const Projects = () => {
         <div className='container'>
             <div className="container-top">
                 <h3>Projects</h3>
-                <h3>CONTACT ME</h3>
+                <h3><span id='contact-me'>CONTACT ME</span></h3>
             </div>
-            <hr id='project-line'/>
             <div className="project-container">
                 {projectElements}
             </div>

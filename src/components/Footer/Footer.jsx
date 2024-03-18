@@ -6,7 +6,7 @@ import { BsTwitterX } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className='footer-name'>
+    <div className='footer-container'>
         <hr id='footer-line'/>
         <div className="footer-content">
             <h4>wilsonsiaw</h4>

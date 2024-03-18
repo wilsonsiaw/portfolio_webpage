@@ -239,13 +239,15 @@
         line-height: 26px;
     }
 
-    #project-line {
-        border: 2px solid #6643b5;
-        width: 130px;
-        margin-top: -55px;
+    #contact-me:hover {
+        font-size: 22px;
+        cursor: pointer;
+        color: #6643b5;
+    }
 
-        position: relative;
-        left: 92%;
+    #contact-me {
+        text-decoration: 5px underline #6643b5;
+        margin-top: 5px;
     }
 
     .project-title {

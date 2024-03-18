@@ -10,9 +10,36 @@ const Hero = () => {
       <div className="hero-top">
         <h1>wilsonsiaw</h1>
         <div className="icons">
-          <FaGithub />
-          <FaLinkedin />
-          <BsTwitterX />
+          <a 
+            href="https://github.com/wilsonsiaw"
+            target='_blank'
+            rel='noopener noreferrer'
+            className='github'
+            onMouseOver={({target}) => target.style.color="#c54c82"}
+            onMouseOut={({target}) => target.style.color="white"}
+          >
+            <FaGithub />
+          </a>
+          <a 
+            href="https://www.linkedin.com/in/wilson-siaw/"
+            target='_blank'
+            rel='noopener noreferrer'
+            className='linkedin'
+            onMouseOver={({target}) => target.style.color="#c54c82"}
+            onMouseOut={({target}) => target.style.color="white"}
+          >
+            <FaLinkedin />
+          </a>
+          <a 
+            href="https://twitter.com/data_wilson"
+            target='_blank'
+            rel='noopener noreferrer'
+            className='twitter'
+            onMouseOver={({target}) => target.style.color="#c54c82"}
+            onMouseOut={({target}) => target.style.color="white"}
+          >
+            <BsTwitterX />
+          </a>
         </div>
       </div>
       <div className="hero-center">

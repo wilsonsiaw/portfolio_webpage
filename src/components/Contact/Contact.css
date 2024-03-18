@@ -1,0 +1,81 @@
+@media screen and (max-width: 767px) {
+    .contact-container {
+        position: relative;
+
+        /* watch this line */
+        margin-bottom: 100px;
+    }
+
+    .contact {
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .contact-top h4 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .contact-top p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    input {
+        display: block;
+        height: 43px;
+        width: 100%;
+        margin-bottom: 32px;
+        border-bottom: 1px solid #fff;
+
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px; 
+    }
+
+    input:hover {
+        border: none;
+    }
+
+    textarea {
+        height: 187px;
+        width: 100%;
+        margin-bottom: 32px;
+        border-bottom: 1px solid #fff;
+
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+    }
+
+    .submit-btn {
+        height: auto;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    button {
+        padding: 20px 30px;
+
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+
+    #submit-line {
+        border: 2px solid #6643b5;
+        width: 140px;
+        
+        position: absolute;
+        left: 58.5%;
+        margin-top: -8px;
+    }
+}

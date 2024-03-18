@@ -79,3 +79,82 @@
         margin-top: -8px;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .contact-container {
+        position: relative;
+        margin-top: 80px;
+
+        /* watch this line */
+        margin-bottom: 100px;
+    }
+
+    .contact {
+        margin: 0 auto;
+        width: 75%;
+    }
+
+    .contact-top h4 {
+        text-align: center;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .contact-top p {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        margin-bottom: 50px;
+    }
+
+    input {
+        display: block;
+        height: 43px;
+        width: 100%;
+        margin-bottom: 32px;
+        border-bottom: 2px solid #fff;
+
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px; 
+    }
+
+    textarea {
+        height: 187px;
+        width: 100%;
+        margin-bottom: 32px;
+        border-bottom: 2px solid #fff;
+
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+    }
+
+    .submit-btn {
+        height: auto;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    button {
+        padding: 20px 30px;
+
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+
+    #submit-line {
+        border: 2px solid #6643b5;
+        width: 150px;
+        
+        position: absolute;
+        left: 65.5%;
+        margin-top: -8px;
+    }
+}

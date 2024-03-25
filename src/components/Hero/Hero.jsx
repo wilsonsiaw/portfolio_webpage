@@ -57,7 +57,7 @@ const Hero = () => {
             </p>
           </div>
           <div className="contact-me">
-            <h3>CONTACT ME</h3>
+            <a href='#contact'>CONTACT ME</a>
             <hr id='contact-line'/>
           </div>
         </div>

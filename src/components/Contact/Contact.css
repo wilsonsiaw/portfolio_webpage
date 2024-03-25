@@ -268,6 +268,12 @@
         font-size: 16px;
         font-weight: 700;
         line-height: 26px;
+
+    }
+
+    button:hover {
+        color: #6643b5;
+        font-size: 18px;
     }
 
     #submit-line {

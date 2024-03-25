@@ -1,22 +1,50 @@
 import React, {useState} from 'react'
 import "./Contact.css"
+import emailjs from "emailjs-com"
 
 const Contact = () => {
     
     const [formData, setFormData] = useState(
         {
-            name: "",
-            email: "",
+            user_name: "",
+            user_email: "",
             message: ""
         }
     )
 
     const handleChange = (event) => {
+
+        const {name, value} = event.target;
+
         setFormData(prevFormData => {
             return {
                 ...prevFormData,
-                [event.target.name]: event.target.value
+                [name]: value
             }
+        })
+    }
+
+    function sendEmail(event) {
+        event.preventDefault();
+
+        emailjs.sendForm(
+            import.meta.env.VITE_EMAIL_SERVICE_ID,
+            import.meta.env.VITE_EMAIL_TEMPLATE_ID,
+            event.target,
+            import.meta.env.VITE_EMAIL_USER_ID
+        )
+        .then((result) => {
+            alert("Email sent successfully!");
+
+            setFormData({
+                user_name: "",
+                user_email: "",
+                message: ""
+            });
+        })
+        .catch(error => {
+            alert("Error sending email:", error);
+            alert("Send an email directly to: wilsonsiawse@gmail.com")
         })
     }
 
@@ -35,16 +63,16 @@ const Contact = () => {
                 </p>
             </div>
 
-            <form action="" className='contact-form'>
+            <form action="" className='contact-form' onSubmit={sendEmail}>
                 <input type="text"
                     placeholder='NAME'
-                    name='name'
+                    name='user_name'
                     onChange={handleChange}
                     value={formData.name}
                 />
                 <input type="email"
                     placeholder='EMAIL'
-                    name='email'
+                    name='user_email'
                     onChange={handleChange}
                     value={formData.email}
                 />

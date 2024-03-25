@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px) {
     .container {
         margin: 0 auto;
-        width: 95%;
+        width: 90%;
         height: auto;
 
         position: relative;
@@ -20,19 +20,16 @@
         line-height: 40px;
     }
 
-    .container-top h3:nth-of-type(2) {
+    .container-top a {
+        text-decoration: none;
         font-size: 16px;
         font-weight: 700;
         line-height: 26px;
     }
 
-    #project-line {
-        border: 2px solid #6643b5;
-        width: 100px;
-        margin-top: -25px;
-
-        position: relative;
-        left: 75%;
+    #contact-me {
+        text-decoration: 5px underline #6643b5;
+        margin-top: 5px;
     }
 
     .project-container {
@@ -116,19 +113,16 @@
         line-height: 40px;
     }
 
-    .container-top h3:nth-of-type(2) {
+    .container-top a {
+        text-decoration: none;
         font-size: 16px;
         font-weight: 700;
         line-height: 26px;
     }
 
-    #project-line {
-        border: 2px solid #6643b5;
-        width: 100px;
-        margin-top: -55px;
-
-        position: relative;
-        left: 86%;
+    #contact-me {
+        text-decoration: 5px underline #6643b5;
+        margin-top: 5px;
     }
 
     .project-title {
@@ -233,7 +227,8 @@
         line-height: 40px;
     }
 
-    .container-top h3:nth-of-type(2) {
+    .container-top a {
+        text-decoration: none;
         font-size: 20px;
         font-weight: 700;
         line-height: 26px;

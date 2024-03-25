@@ -77,15 +77,14 @@
 
         font-size: 16px;
         font-weight: 700;
-        line-height: 26px;
     }
 
     #submit-line {
         border: 2px solid #6643b5;
-        width: 140px;
+        width: 120px;
         
         position: absolute;
-        left: 58.5%;
+        left: 62.5%;
         margin-top: -8px;
     }
 }
@@ -165,15 +164,14 @@
 
         font-size: 16px;
         font-weight: 700;
-        line-height: 26px;
     }
 
     #submit-line {
         border: 2px solid #6643b5;
-        width: 150px;
+        width: 130px;
         
         position: absolute;
-        left: 65.5%;
+        left: 67.5%;
         margin-top: -8px;
     }
 }
@@ -265,7 +263,7 @@
     button {
         padding: 20px 30px;
 
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 700;
         line-height: 26px;
 
@@ -273,12 +271,12 @@
 
     button:hover {
         color: #6643b5;
-        font-size: 18px;
+        font-size: 22px;
     }
 
     #submit-line {
         border: 2px solid #6643b5;
-        width: 140px;
+        width: 160px;
         
         position: absolute;
         right: 8.6%;

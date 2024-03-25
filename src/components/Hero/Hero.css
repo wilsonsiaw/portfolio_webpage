@@ -225,7 +225,7 @@
     }
 
     .contact-me a {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 700;
         line-height: 26px;
         text-decoration: none;
@@ -235,7 +235,7 @@
     .contact-me a:hover {
         color: #6643b5;
         cursor: pointer;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .profile {

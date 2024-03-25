@@ -1,7 +1,25 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./Contact.css"
 
 const Contact = () => {
+    
+    const [formData, setFormData] = useState(
+        {
+            name: "",
+            email: "",
+            message: ""
+        }
+    )
+
+    const handleChange = (event) => {
+        setFormData(prevFormData => {
+            return {
+                ...prevFormData,
+                [event.target.name]: event.target.value
+            }
+        })
+    }
+
   return (
     <div className='contact-container'>
         <div className="contact">
@@ -20,20 +38,29 @@ const Contact = () => {
             <form action="" className='contact-form'>
                 <input type="text"
                     placeholder='NAME'
+                    name='name'
+                    onChange={handleChange}
+                    value={formData.name}
                 />
                 <input type="email"
                     placeholder='EMAIL'
+                    name='email'
+                    onChange={handleChange}
+                    value={formData.email}
                 />
-                <textarea
-                    name=""
+                <textarea 
+                    placeholder='MESSAGE'
                     id="" cols="30"
                     rows="10"
-                    placeholder='MESSAGE'>
-                </textarea>
+                    name='message'
+                    onChange={handleChange}
+                    value={formData.message}
+                />
+                    
                 <div className="submit-btn">
                     <button>SEND MESSAGE</button>
                 </div>
-                <hr id='submit-line'/>
+                <span id='submit-line'></span>
             </form>
         </div>
     </div>

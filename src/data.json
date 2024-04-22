@@ -30,5 +30,13 @@
         "technology": ["React", "CSS"],
         "deployment_url": "https://todo-application-iota-topaz.vercel.app/",
         "github_url": "https://github.com/wilsonsiaw/ToDo-Application"
+    },
+    {
+        "id": 5,
+        "name": "Advice Generator Application",
+        "image": "/assets/advice_generator_project.png",
+        "technology": ["React", "CSS"],
+        "deployment_url": "https://advice-generator-app-bay-six.vercel.app/",
+        "github_url": "https://github.com/wilsonsiaw/advice_generator_app"
     }
 ]
